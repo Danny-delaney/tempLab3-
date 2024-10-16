@@ -365,6 +365,9 @@
 "Assets/assets/Scripts/RandomRotator.cs"
 "Assets/assets/Scripts/WeaponController.cs"
 "Assets/controls/PlayerControls.cs"
+"Assets/controls/PlayerMovement.cs"
+"Assets/controls/PlayerShooting.cs"
+"Assets/prefabs/Bullet/Bullet.cs"
 -langversion:9.0
 /deterministic
 /optimize+
