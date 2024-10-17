@@ -62,11 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets\assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\assets\Scripts\BGScroller.cs" />
-    <Compile Include="Assets\Managers\UIManager.cs" />
     <Compile Include="Assets\prefabs\Bullet\Bullet.cs" />
     <Compile Include="Assets\assets\Scripts\DestroyByContact.cs" />
     <Compile Include="Assets\controls\PlayerShooting.cs" />
-    <Compile Include="Assets\Managers\GameManager.cs" />
+    <Compile Include="Assets\managers\UIManager.cs" />
     <Compile Include="Assets\controls\PlayerMovement.cs" />
     <Compile Include="Assets\controls\DeathButton.cs" />
     <Compile Include="Assets\assets\Scripts\WeaponController.cs" />
@@ -74,6 +73,7 @@
     <Compile Include="Assets\assets\Scripts\RandomRotator.cs" />
     <Compile Include="Assets\assets\Scripts\Mover.cs" />
     <Compile Include="Assets\controls\controller\PlayerControls.cs" />
+    <Compile Include="Assets\managers\GameManager.cs" />
     <Compile Include="Assets\assets\Scripts\EvasiveManeuver.cs" />
     <Compile Include="Assets\controls\PlayerRespawn.cs" />
     <Compile Include="Assets\assets\Scripts\DestroyByBoundary.cs" />

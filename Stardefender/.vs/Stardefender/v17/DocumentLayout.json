@@ -1,34 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\",
+  "WorkspaceRootPath": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|c:\\users\\gameuser\\projects\\backup\\templab3-\\stardefender\\assets\\controls\\deathbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|c:\\users\\gameuser\\desktop\\temp\\templab3-\\stardefender\\assets\\controls\\deathbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|solutionrelative:assets\\controls\\deathbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\assets\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|solutionrelative:assets\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\assets\\controls\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\assets\\controls\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|solutionrelative:assets\\controls\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerControls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\controls\\PlayerControls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerControls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\assets\\controls\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\assets\\controls\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|solutionrelative:assets\\controls\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\assets\\prefabs\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\assets\\prefabs\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\assets\\controls\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\assets\\controls\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|solutionrelative:assets\\controls\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\Managers\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,9 +42,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DeathButton.cs",
-              "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\DeathButton.cs",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\DeathButton.cs",
               "RelativeDocumentMoniker": "Assets\\controls\\DeathButton.cs",
-              "ToolTip": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\DeathButton.cs",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\DeathButton.cs",
               "RelativeToolTip": "Assets\\controls\\DeathButton.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,23 +53,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\Managers\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\Managers\\GameManager.cs",
               "ToolTip": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\Managers\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Managers\\GameManager.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\Managers\\GameManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T15:48:37.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerRespawn.cs",
-              "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerRespawn.cs",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerRespawn.cs",
               "RelativeDocumentMoniker": "Assets\\controls\\PlayerRespawn.cs",
-              "ToolTip": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerRespawn.cs",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerRespawn.cs",
               "RelativeToolTip": "Assets\\controls\\PlayerRespawn.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,22 +77,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PlayerControls.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerControls.cs",
-              "RelativeDocumentMoniker": "Assets\\controls\\PlayerControls.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerControls.cs",
               "ToolTip": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerControls.cs",
-              "RelativeToolTip": "Assets\\controls\\PlayerControls.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerControls.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T15:43:10.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\prefabs\\Bullet\\Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\prefabs\\Bullet\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\prefabs\\Bullet\\Bullet.cs",
-              "ToolTip": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\prefabs\\Bullet\\Bullet.cs",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\prefabs\\Bullet\\Bullet.cs",
               "RelativeToolTip": "Assets\\prefabs\\Bullet\\Bullet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,11 +100,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PlayerShooting.cs",
-              "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerShooting.cs",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerShooting.cs",
               "RelativeDocumentMoniker": "Assets\\controls\\PlayerShooting.cs",
-              "ToolTip": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerShooting.cs",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerShooting.cs",
               "RelativeToolTip": "Assets\\controls\\PlayerShooting.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwDYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,11 +112,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\controls\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\controls\\PlayerMovement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

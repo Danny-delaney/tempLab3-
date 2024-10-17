@@ -369,8 +369,8 @@
 "Assets/controls/PlayerMovement.cs"
 "Assets/controls/PlayerRespawn.cs"
 "Assets/controls/PlayerShooting.cs"
-"Assets/Managers/GameManager.cs"
-"Assets/Managers/UIManager.cs"
+"Assets/managers/GameManager.cs"
+"Assets/managers/UIManager.cs"
 "Assets/prefabs/Bullet/Bullet.cs"
 -langversion:9.0
 /deterministic
