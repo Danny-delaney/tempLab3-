@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 using TMPro;
+using System;
 
 public class GameController : MonoBehaviour
 {
@@ -12,9 +13,11 @@ public class GameController : MonoBehaviour
     public float startWait;
     public float waveWait;
 
-    public TMP_Text scoreText;
-    public TMP_Text restartText;
-    public TMP_Text gameOverText;
+    private int wavecount = 1;
+
+    //public TMP_Text scoreText;
+    //public TMP_Text restartText;
+    //public TMP_Text gameOverText;
 
     private bool gameOver;
     private bool restart;
@@ -24,11 +27,16 @@ public class GameController : MonoBehaviour
     {
         gameOver = false;
         restart = false;
-        restartText.text = "";
-        gameOverText.text = "";
+        //restartText.text = "";
+        //gameOverText.text = "";
         score = 0;
         UpdateScore();
         StartCoroutine(SpawnWaves());
+    }
+
+    int getScore() 
+    { 
+        return score; 
     }
 
     void Update()
@@ -47,19 +55,48 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(startWait);
         while (true)
         {
-            for (int i = 0; i < hazardCount; i++)
+            switch(wavecount)
             {
-                GameObject hazard = hazards[Random.Range(0, hazards.Length)];
-                Vector3 spawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
-                Quaternion spawnRotation = Quaternion.identity;
-                Instantiate(hazard, spawnPosition, spawnRotation);
-                yield return new WaitForSeconds(spawnWait);
+                case 1:
+                    for (int i = 0; i < hazardCount; i++)
+                    {
+                        GameObject hazard = hazards[UnityEngine.Random.Range(0, hazards.Length)];
+                        Vector3 spawnPosition = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                        Quaternion spawnRotation = Quaternion.identity;
+                        Instantiate(hazard, spawnPosition, spawnRotation);
+                        yield return new WaitForSeconds(spawnWait);
+                        if(score >= 200)
+                        {
+                            wavecount = 2;
+                        }
+                    }
+                    break;
+                case 2:
+                    if (score >= 400)
+                    {
+                        wavecount = 3;
+                    }
+                    break;
+                case 3:
+                    if (score >= 800)
+                    {
+                        Debug.Log("YOU WIN");
+                    }
+                    break;
             }
+            //for (int i = 0; i < hazardCount; i++)
+            //{
+            //    GameObject hazard = hazards[Random.Range(0, hazards.Length)];
+            //    Vector3 spawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+            //    Quaternion spawnRotation = Quaternion.identity;
+            //    Instantiate(hazard, spawnPosition, spawnRotation);
+            //    yield return new WaitForSeconds(spawnWait);
+            //}
             yield return new WaitForSeconds(waveWait);
 
             if (gameOver)
             {
-                restartText.text = "Press 'R' for Restart";
+                //restartText.text = "Press 'R' for Restart";
                 restart = true;
                 break;
             }
@@ -74,12 +111,12 @@ public class GameController : MonoBehaviour
 
     void UpdateScore()
     {
-        scoreText.text = "Score: " + score;
+        //scoreText.text = "Score: " + score;
     }
 
     public void GameOver()
     {
-        gameOverText.text = "Game Over!";
+        //gameOverText.text = "Game Over!";
         gameOver = true;
     }
 }

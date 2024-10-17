@@ -7,6 +7,7 @@ public class DestroyByContact : MonoBehaviour
 	public GameObject playerExplosion;
 	public int scoreValue;
 	private GameController gameController;
+	public int HP;
 
 	void Start ()
 	{
@@ -38,9 +39,26 @@ public class DestroyByContact : MonoBehaviour
 			Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
 			gameController.GameOver();
 		}
+
+		if(other.tag == "Enemy" && tag == "Player")
+		{
+            Destroy(other.gameObject);
+			Debug.Log("DAMAGE TAKEN: PLAYER");
+            HP--;
+        }
+
+		if (other.tag == "Bullet" && tag == "Enemy")
+		{
+            Destroy(other.gameObject);
+            HP--;
+		}
+
+        if (HP == 0)
+		{
+			gameController.AddScore(scoreValue);
+			//Destroy (other.gameObject);
+			Destroy (gameObject);
+		}
 		
-		gameController.AddScore(scoreValue);
-		Destroy (other.gameObject);
-		Destroy (gameObject);
 	}
 }

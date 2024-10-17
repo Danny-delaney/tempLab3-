@@ -358,6 +358,7 @@
 "Assets/assets/Scripts/DestroyByBoundary.cs"
 "Assets/assets/Scripts/DestroyByContact.cs"
 "Assets/assets/Scripts/DestroyByTime.cs"
+"Assets/assets/Scripts/EnemyController.cs"
 "Assets/assets/Scripts/EvasiveManeuver.cs"
 "Assets/assets/Scripts/GameController.cs"
 "Assets/assets/Scripts/Mover.cs"
