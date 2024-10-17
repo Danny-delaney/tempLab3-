@@ -48,6 +48,7 @@ MonoBehaviour:
   explosion: {fileID: 0}
   playerExplosion: {fileID: 0}
   scoreValue: 5
+  HP: 2
 --- !u!1001 &6336270680549760122
 PrefabInstance:
   m_ObjectHideFlags: 0

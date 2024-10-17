@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class EvasiveManeuver : MonoBehaviour
 {
@@ -13,13 +14,14 @@ public class EvasiveManeuver : MonoBehaviour
 
 	private float currentSpeed;
 	private float targetManeuver;
+    private GameController gameController;
 
-	void Start ()
+    void Start ()
 	{
 		currentSpeed = GetComponent<Rigidbody>().velocity.z;
 		StartCoroutine(Evade());
-	}
-	
+        gameController = FindObjectOfType<GameController>();
+    }
 	IEnumerator Evade ()
 	{
 		yield return new WaitForSeconds (Random.Range (startWait.x, startWait.y));

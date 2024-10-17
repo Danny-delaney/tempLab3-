@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 11400004}
   m_Layer: 0
   m_Name: Done_Bolt-Enemy
-  m_TagString: Enemy
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  zigzagFrequency: 2
+  zigzagAmplitude: 1
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +116,7 @@ MonoBehaviour:
   explosion: {fileID: 0}
   playerExplosion: {fileID: 100008, guid: 3455fe69f7ddc4604b95bf9b0a1e88d7, type: 3}
   scoreValue: 0
+  HP: 0
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
