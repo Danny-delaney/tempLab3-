@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|c:\\users\\gameuser\\desktop\\temp\\templab3-\\stardefender\\assets\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|c:\\users\\gameuser\\desktop\\temp\\templab3-\\stardefender\\assets\\controls\\deathbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2850DC81-F591-606D-6568-3354BDAC6D62}|Assembly-CSharp.csproj|solutionrelative:assets\\controls\\deathbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +45,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\assets\\Scripts\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\assets\\Scripts\\GameController.cs",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\assets\\Scripts\\GameController.cs",
+              "RelativeToolTip": "Assets\\assets\\Scripts\\GameController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T17:44:39.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DeathButton.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\DeathButton.cs",
               "RelativeDocumentMoniker": "Assets\\controls\\DeathButton.cs",
@@ -53,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\Managers\\GameManager.cs",
@@ -65,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerRespawn.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerRespawn.cs",
               "RelativeDocumentMoniker": "Assets\\controls\\PlayerRespawn.cs",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerControls.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerControls.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\projects\\backup\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerControls.cs",
@@ -88,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\prefabs\\Bullet\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\prefabs\\Bullet\\Bullet.cs",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerShooting.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerShooting.cs",
               "RelativeDocumentMoniker": "Assets\\controls\\PlayerShooting.cs",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\temp\\tempLab3-\\Stardefender\\Assets\\controls\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\controls\\PlayerMovement.cs",

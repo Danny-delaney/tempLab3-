@@ -7,6 +7,8 @@ using System;
 public class GameController : MonoBehaviour
 {
     public GameObject[] hazards;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI hpText;
     public Vector3 spawnValues;
     public int hazardCount;
     public float spawnWait;
@@ -32,11 +34,6 @@ public class GameController : MonoBehaviour
         score = 0;
         UpdateScore();
         StartCoroutine(SpawnWaves());
-    }
-
-    int getScore() 
-    { 
-        return score; 
     }
 
     void Update()
@@ -111,7 +108,7 @@ public class GameController : MonoBehaviour
 
     void UpdateScore()
     {
-        //scoreText.text = "Score: " + score;
+        scoreText.text = "Score: " + score;
     }
 
     public void GameOver()
