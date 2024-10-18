@@ -24,7 +24,7 @@ public class DestroyByContact : MonoBehaviour
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (other.tag == "Boundary" || other.tag == "Enemy" || other.tag == "EnemyBullet")
+		if (other.tag == "Boundary" || other.tag == "Enemy" || (other.tag == "EnemyBullet" && tag == "Enemy"))
 		{
 			return;
 		}
@@ -40,11 +40,11 @@ public class DestroyByContact : MonoBehaviour
 			gameController.GameOver();
 		}
 
-		if(other.tag == "Enemy" && tag == "Player")
+		if(other.tag == "EnemyBullet" && tag == "Player")
 		{
             Destroy(other.gameObject);
 			Debug.Log("DAMAGE TAKEN: PLAYER");
-            HP--;
+			gameController.playerHP--;
         }
 
 		if (other.tag == "Bullet" && tag == "Enemy")
@@ -52,6 +52,11 @@ public class DestroyByContact : MonoBehaviour
             Destroy(other.gameObject);
             HP--;
 		}
+
+		if (gameController.playerHP <= 0 && tag == "Player")
+		{
+            Destroy(gameObject);
+        }
 
         if (HP == 0)
 		{

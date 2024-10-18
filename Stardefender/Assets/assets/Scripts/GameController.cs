@@ -7,6 +7,7 @@ using System;
 public class GameController : MonoBehaviour
 {
     public GameObject[] hazards;
+    public GameObject player;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI hpText;
     public Vector3 spawnValues;
@@ -14,6 +15,7 @@ public class GameController : MonoBehaviour
     public float spawnWait;
     public float startWait;
     public float waveWait;
+    public int playerHP = 4;
 
     public int wavecount = 1;
 
@@ -45,6 +47,7 @@ public class GameController : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
+        updateHealth();
     }
 
     IEnumerator SpawnWaves()
@@ -104,6 +107,11 @@ public class GameController : MonoBehaviour
     {
         score += newScoreValue;
         UpdateScore();
+    }
+
+    void updateHealth()
+    {
+        hpText.text = "Health: " + playerHP + "\nLives: 3";
     }
 
     void UpdateScore()
